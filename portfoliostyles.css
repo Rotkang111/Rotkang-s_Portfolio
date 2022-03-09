@@ -1,98 +1,109 @@
-    html {
-        height: 100%;
-    }
-    
-    body {
-        background-image: url(images/FB_IMG_1636056209942.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-    }
-    
-    header {
-        background-color: rgba(0, 0, 0, 0.801);
-        height: 100px;
-        text-align: center;
-        border-width: 1020px;
-        padding-top: 1px;
-        padding-bottom: 1px;
-    }
-    
-    nav {
-        background-color: rgba(100, 148, 237, 0.63);
-        text-align: center;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-    
-    main {
-        height: 1020px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-style: solid;
-    }
-    
-    footer {
-        background-color: rgba(0, 0, 0, 0.727);
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    h1 {
-        color: white;
-        font-size: 45pt;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-    }
-    
-    h2 {
-        color: white;
-        border-radius: 30pt;
-        border-right-width: 1px;
-        background-color: black;
-        font-size: 21pt;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: left;
-    }
-    
-    h3 {
-        color: white;
-        border-radius: 30pt;
-        border-right-width: 1px;
-        background-color: black;
-        font-size: 21pt;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: left;
-    }
-    
-    P {
-        font-size: 15pt;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: left;
-        text-indent: 10pt;
-    }
-    
-    a {
-        color: red;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        /* text-decoration: none; */
-    }
-    
-    nav a {
-        text-decoration: none;
-        font-size: 12px;
-        padding-left: 31px;
-        padding-right: 31px;
-    }
-    
-    footer p {
-        font-size: 18px;
-        text-align: center;
-        color: wheat;
-    }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.801);
+  margin-top: -40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* height: 100px;
+  text-align: center;
+  border-width: 1020px;
+  padding-top: 1px;
+  padding-bottom: 1px; */
+}
+
+nav {
+  background-color: rgba(100, 148, 237, 0.63);
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+a {
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* text-decoration: none; */
+}
+
+h1 {
+  color: white;
+  font-size: 45pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+main div {
+  display: inline-table;
+  width: 40%;
+  background-color: rgb(211, 205, 205);
+  padding: 10px;
+  margin: 20px;
+}
+
+h2 {
+  color: white;
+  border-radius: 30pt;
+  border-right-width: 1px;
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+
+main h2 {
+  color: white;
+  border-radius: 30pt;
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 15px;
+}
+
+body {
+  /* background-image: url(images/FB_IMG_1636056209942.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+P {
+  font-size: 15pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  text-indent: 10pt;
+}
+
+.readMore {
+  visibility: collapse;
+}
+
+.vertical_space {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.727);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer p {
+  /* this  what edit header */
+
+  font-size: 18px;
+  text-align: center;
+  color: wheat;
+}

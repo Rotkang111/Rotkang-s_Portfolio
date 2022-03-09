@@ -1,0 +1,52 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.801);
+  margin-top: -40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* height: 100px;
+    text-align: center;
+    border-width: 1020px;
+    padding-top: 1px;
+    padding-bottom: 1px; */
+}
+
+nav {
+  background-color: rgba(100, 148, 237, 0.63);
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+a {
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* text-decoration: none; */
+}
+
+h1 {
+  color: white;
+  font-size: 45pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+main div {
+  display: inline-table;
+  width: 40%;
+  background-color: rgb(211, 205, 205);
+  padding: 10px;
+  margin: 20px;
+}
